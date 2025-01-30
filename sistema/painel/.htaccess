@@ -1,0 +1,42 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^usuarios(.*)$ index.php?pagina=usuarios [L]
+RewriteRule ^grupo_acessos(.*)$ index.php?pagina=grupo_acessos [L]
+RewriteRule ^acessos(.*)$ index.php?pagina=acessos [L]
+
+
+RewriteRule ^qr_code(.*)$ index.php?pagina=qr_code [L]
+RewriteRule ^enviar_mensagem(.*)$ index.php?pagina=enviar_mensagem [L]
+
+RewriteRule ^leads(.*)$ index.php?pagina=leads [L]
+RewriteRule ^ninchos(.*)$ index.php?pagina=ninchos [L]
+
+RewriteRule ^index(.*)$ index.php [L]
+RewriteRule ^receber(.*)$ index.php?pagina=receber [L]
+RewriteRule ^pagar(.*)$ index.php?pagina=pagar [L]
+RewriteRule ^formas_pgto(.*)$ index.php?pagina=formas_pgto [L]
+RewriteRule ^frequencias(.*)$ index.php?pagina=frequencias [L]
+RewriteRule ^funcionarios(.*)$ index.php?pagina=funcionarios [L]
+RewriteRule ^fornecedores(.*)$ index.php?pagina=fornecedores [L]
+RewriteRule ^cargos(.*)$ index.php?pagina=cargos [L]
+RewriteRule ^clientes(.*)$ index.php?pagina=clientes [L]
+RewriteRule ^home(.*)$ index.php?pagina=home [L]
+RewriteRule ^caixas(.*)$ index.php?pagina=caixas [L]
+RewriteRule ^tarefas(.*)$ index.php?pagina=tarefas [L]
+
+RewriteRule ^produtos(.*)$ index.php?pagina=produtos [L]
+RewriteRule ^categorias(.*)$ index.php?pagina=categorias [L]
+RewriteRule ^unidade_medida(.*)$ index.php?pagina=unidade_medida [L]
+
+RewriteRule ^entradas(.*)$ index.php?pagina=entradas [L]
+RewriteRule ^saidas(.*)$ index.php?pagina=saidas [L]
+RewriteRule ^vendas(.*)$ index.php?pagina=vendas [L]
+RewriteRule ^lista_vendas(.*)$ index.php?pagina=lista_vendas [L]
+RewriteRule ^orcamento(.*)$ index.php?pagina=orcamento [L]
+RewriteRule ^estoque(.*)$ index.php?pagina=estoque [L]
+RewriteRule ^comissoes(.*)$ index.php?pagina=comissoes [L]
+RewriteRule ^minhas_comissoes(.*)$ index.php?pagina=minhas_comissoes [L]
+RewriteRule ^ordem_compra(.*)$ index.php?pagina=ordem_compra [L]
